@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    /* nav start */
+    .log-sign{
+        @apply font-bold text-[14px] text-[#424D65] capitalize after:content-[''] after:w-4/5 after:h-[10%] after:absolute after:bg-[#04A8FF] hover:after:bg-[#DEF4FE] after:bottom-[-5px] after:left-[50%] after:translate-x-[-50%] hover:after:w-[120px] hover:after:h-[40px] hover:after:bottom-[-10px] hover:after:rounded-[8px] after:transition-[.4s] after:z-[-1] relative z-[1] hover:text-[#04A8FF];
+    }
+    /* nav end */
+    /* banner start */
+    .head{
+        @apply text-[#292E37] text-[85px] font-bold leading-[90px] font-poppins
+    }
+    .heading{
+        @apply text-[#292E37] text-[50px] font-poppins font-bold leading-[50px] tracking-[0.5px] max-w-[435px]
+    }
+    .paragraph{
+        @apply text-[#525D73] text-[14px] font-poppins leading-[26px] tracking-[-0.14px]
+    }
+    .button{
+        @apply text-white font-poppins text-[14px] font-semibold leading-[14px] py-[24px] px-[37px] bg-button-gradient rounded-[8px]
+    }
+    /* banner end */
+    /* about start */
+    .abitem{
+        @apply 
+    }
+    .head3{
+        @apply text-[28px] font-semibold font-poppins leading-[28px] text-[#292E37]
+    }
+    /* about end */
+    /* feature start */
+    .planbtn{
+        @apply w-1/2 h-full text-[#001CAF] text-[18px] font-poppins font-medium leading-[132.5%]
+    }
+    .planactive{
+        @apply text-[#FFFFFF] bg-[#001CAF]
+    }
+    /* feature end */
+
+}
